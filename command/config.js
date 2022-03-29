@@ -15,12 +15,12 @@ global.APIKeys = {
 
 //━━━━━━━━━━━━━━━[ OTHER ]━━━━━━━━━━━━━━━━━//
 
-global.ownername = 'Bot Indo'
-global.owner = ['628811929177']
-global.packname = 'LoliBot MD'
-global.author = 'LoliBot MD'
+global.ownername = 'Ｔａｓｙａ'
+global.owner = ['6283830815715']
+global.packname = 'Ｔａｓｙａ B O T Z'
+global.author = 'Ｔａｓｙａ'
 global.prefa = ['','!','.','🐦','🐤','🗿']
-global.sp = '⭔'
+global.sp = '⸙'
 global.mess = {
 admin: 'Fitur Khusus Admin Group!',
 botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
