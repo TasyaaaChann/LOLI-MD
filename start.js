@@ -90,10 +90,10 @@ if (anu.action == 'add') {
 zeroyt7.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `Welcome To *${metadata.subject}* @${num.split("@")[0]}
 Silahkan Intro Dulu Kak😇
 
-🌍Nama :
-🗺Umur :
-☎Asal Kota :
-📦Gender :
+🟡Nama :
+🗿Umur :
+🏢Asal Kota :
+👥Gender :
 
 Semoga Betah Ya Kak
 Read Rules 
