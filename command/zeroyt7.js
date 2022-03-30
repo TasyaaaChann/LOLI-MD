@@ -208,8 +208,8 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                 listMessage :{
                     title: `Hi ${pushname}`,
                     description: `${roti}`,
-                    buttonText: "LIST MENU >_<",
-                    footerText: "Loli bot-MD",
+                    buttonText: "LIST MENU",
+                    footerText: "ＴａｓｙａB O T Z",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Fitur Grup",
@@ -1145,7 +1145,7 @@ case 'bc': case 'bcgroup': {
                             }]
                       fatihgans = fs.readFileSync('./image/zeroyt7.jpg')
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      zeroyt7.send5ButImg(i, txt, `*Loli Bot MD*`, fatihgans, btn)
+                      zeroyt7.send5ButImg(i, txt, `*Ｔａｓｙａ*`, fatihgans, btn)
                     }
                 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
             }
@@ -1156,7 +1156,7 @@ case 'seputardunia':
 case 'faktadunia':
 m.reply(mess.wait)
 apri = `https://api-daniganz.herokuapp.com/api/randomvideo/${command}?apikey=VeanChan`
-sendFileFromUrl(m.chat, `${apri}`,`Nieh By Aprilia\nJangan Lupa Subscribe Bot Indo`)
+sendFileFromUrl(m.chat, `${apri}`,`Nieh By Ｔａｓｙａ\nJangan Lupa Donasi`)
 break
 case 'nomerhoki': case 'nomorhoki': {
                 if (!Number(text)) throw `Example : ${prefix + command} 6288292024190`
@@ -1175,7 +1175,7 @@ case 'asupanukhty':
 case 'asupannantalia':
 m.reply(mess.wait)
 apri = `https://api-daniganz.herokuapp.com/api/${command}?apikey=VeanChan`
-sendFileFromUrl(m.chat, `${apri}`,`Nieh By Aprilia\nJangan Lupa Subscribe Bot Indo`)
+sendFileFromUrl(m.chat, `${apri}`,`Nieh By Ｔａｓｙａ\nJangan Lupa Donasi`)
 break
 case 'cecan':
 case 'cogan':
@@ -1196,7 +1196,7 @@ case 'japan':
 case 'malaysia':
 m.reply(mess.wait)
 apri = `https://api-daniganz.herokuapp.com/api/cecan/${command}?apikey=VeanChan`
-sendFileFromUrl(m.chat, `${apri}`,`Nieh By Aprilia\nJangan Lupa Subscribe Bot Indo`)
+sendFileFromUrl(m.chat, `${apri}`,`Nieh By Ｔａｓｙａ\nJangan Lupa Donasi`)
 break
 
             case 'artimimpi': case 'tafsirmimpi': {
@@ -1484,7 +1484,7 @@ break
 case 'blackpink':
 if (!q) return m.reply(`Example : ${prefix + command} Aprilia`)
 anu = await fetchJson (`https://app-botpri.herokuapp.com/api/textpro/black-pink?apikey=Fxc7&text=${q}`)
-sendFileFromUrl(m.chat,`${anu.result}`,`Nieh By Aprilia\nJangan Lupa Subscribe Bot Indo`)
+sendFileFromUrl(m.chat,`${anu.result}`,`Nieh By Ｔａｓｙａ\nJangan Lupa Donasi`)
 break
 case 'wolflogo':
 if (!q) return m.reply(`Example : ${prefix + command} Aprilia|Aprii`)
